@@ -1,18 +1,26 @@
 #tabla{
-	text-align: center;
-	border-style: dashed;
+    background-color:red;
+    text-align: center;
+    border-style: dashed;
 }
-#tabla tr:nth-child(even) td:nth-child(odd)
-{
-   background-color: red;
-  background: rgba(0,0,0,.4);
+#tabla:nth-child(even) td:nth-child(odd){
+    
+    background-color:blue;
+    table-layout: justify;
+    
+}
+#tabla:nth-child(even) td:nth-child(odd){
+    
+    background-color: cian;
+    table-layout: justify;
+    
 }
 body{
 	text-align: center;
 }
 input[type="submit"]:hover
 {
-background-color: skyblue;
+background-color:orange;
     border: thin solid transparent;
     border-radius: .10em;
     /*color:;*/
