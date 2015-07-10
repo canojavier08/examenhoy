@@ -11,7 +11,7 @@
 }
 #tabla:nth-child(even) td:nth-child(odd){
     
-    background-color: cian;
+    background-color: blue;
     table-layout: justify;
     
 }
